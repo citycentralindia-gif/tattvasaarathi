@@ -1,0 +1,7 @@
+[build]
+  # Publish this project folder itself so index.html can load app.js, app.css,
+  # and the assets directory after deployment.
+  publish = "."
+
+[functions]
+  directory = "netlify/functions"
